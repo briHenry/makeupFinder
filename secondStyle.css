@@ -1,0 +1,53 @@
+h1{
+    color:gray;
+    font-size: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a::shadow {
+    background-color: #111;
+}
+
+/* ------------------------------------------------------- */
+
+body {
+    background: linear-gradient(white , powderblue);
+    font-family: 'Damion', cursive;
+}
+
+#brandName {
+    text-align: center; 
+}
+
+#foundations, #blush, #eye, #lipstick, #lipliners {
+    text-align: center; 
+    border: 3px solid black; 
+    width: 25%; 
+    margin: 20px; 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+
+img {
+    width: 80%;
+    height: auto; 
+}
