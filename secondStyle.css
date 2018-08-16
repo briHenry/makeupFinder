@@ -32,6 +32,19 @@ li a::shadow {
 body {
     background: linear-gradient(white , powderblue);
     font-family: 'Damion', cursive;
+    height: 100%; 
+}
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 #brandName {
@@ -41,13 +54,17 @@ body {
 #foundations, #blush, #eye, #lipstick, #lipliners {
     text-align: center; 
     border: 3px solid black; 
-    width: 25%; 
-    margin: 20px; 
+    width: 15%; 
+    margin: 1%; 
     border-radius: 10px; 
-    padding: 10px; 
+    padding: 7px; 
 }
 
 img {
     width: 80%;
     height: auto; 
+}
+
+a {
+    text-decoration: none; 
 }
