@@ -8,17 +8,23 @@
     padding: 5px;
 }
 
+
 body {
-    background: linear-gradient(powderblue,white);
-    font-family: 'times', cursive;
+  font-family: 'times', cursive;
+  height: 800px;
+  background-image: linear-gradient(lightblue, white); 
   }
-  
-  ul {
+
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+  }
+
+  #details {
+    background-color: aqua;
   }
   
   li {
